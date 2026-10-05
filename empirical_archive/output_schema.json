@@ -1,0 +1,203 @@
+{
+  "calibration.csv": {
+    "rows": 4,
+    "columns": [
+      "experiment",
+      "feature",
+      "intercept",
+      "intercept_low",
+      "intercept_high",
+      "slope",
+      "slope_low",
+      "slope_high"
+    ],
+    "purpose": "Trial-level Ridge calibration intercept and slope with fixed-OOF intervals."
+  },
+  "calibration_bands.csv": {
+    "rows": 160,
+    "columns": [
+      "experiment",
+      "feature",
+      "predicted",
+      "fit",
+      "ci_low",
+      "ci_high"
+    ],
+    "purpose": "Calibration line and pointwise fixed-OOF bootstrap bands; Figure 5."
+  },
+  "data_audit.csv": {
+    "rows": 4,
+    "columns": [
+      "experiment",
+      "feature",
+      "raw_rows",
+      "duplicate_extras",
+      "unique_rows",
+      "labels",
+      "unique_runs",
+      "raw_repeat_identifiers",
+      "distinct_repeat_identifiers",
+      "first_run_rows",
+      "non4_unique",
+      "age_min",
+      "age_max",
+      "age_mean",
+      "age_sd",
+      "age_median",
+      "age_q1",
+      "age_q3",
+      "age_45plus",
+      "age_60plus",
+      "female",
+      "male",
+      "fps_min",
+      "fps_max",
+      "vector_mismatches",
+      "age_inconsistent_labels",
+      "modeled_rows",
+      "modeled_non4",
+      "outcome_mean",
+      "outcome_sd"
+    ],
+    "purpose": "Aggregate source counts, repeat-run distinctions, response coherence and age distribution."
+  },
+  "leave_level_grouped_stress.csv": {
+    "rows": 18,
+    "columns": [
+      "experiment",
+      "feature_family",
+      "held_level",
+      "n",
+      "MAE",
+      "RMSE",
+      "R2"
+    ],
+    "purpose": "Condition extrapolation stress tests combined with held-out identifiers."
+  },
+  "legacy_validation_comparison.csv": {
+    "rows": 8,
+    "columns": [
+      "experiment",
+      "feature",
+      "validation",
+      "MAE",
+      "RMSE",
+      "R2",
+      "mean_test_participant_overlap"
+    ],
+    "purpose": "Matched legacy aggregate target: row-wise versus identifier-grouped validation; Figure 2."
+  },
+  "participant_mean_metrics.csv": {
+    "rows": 4,
+    "columns": [
+      "experiment",
+      "feature",
+      "target",
+      "MAE",
+      "RMSE",
+      "R2"
+    ],
+    "purpose": "Ridge performance after separately averaging observed and OOF-predicted scores within identifier."
+  },
+  "primary_model_performance.csv": {
+    "rows": 20,
+    "columns": [
+      "experiment",
+      "feature",
+      "model",
+      "MAE",
+      "RMSE",
+      "R2",
+      "R2_CI_low",
+      "R2_CI_high"
+    ],
+    "purpose": "Five models in each of four datasets, with fixed-OOF R-squared intervals; Figure 3."
+  },
+  "ridge_feature_sets.csv": {
+    "rows": 32,
+    "columns": [
+      "experiment",
+      "feature",
+      "feature_set",
+      "MAE",
+      "RMSE",
+      "R2",
+      "calibration_intercept",
+      "calibration_slope"
+    ],
+    "purpose": "Eight fixed Ridge feature sets per dataset."
+  },
+  "ridge_feature_sets_with_intervals.csv": {
+    "rows": 32,
+    "columns": [
+      "experiment",
+      "feature",
+      "feature_set",
+      "MAE",
+      "RMSE",
+      "R2",
+      "R2_CI_low",
+      "R2_CI_high",
+      "calibration_intercept",
+      "calibration_slope"
+    ],
+    "purpose": "The same feature sets with fixed-OOF R-squared intervals; Figure 6."
+  },
+  "ridge_group_permutation.csv": {
+    "rows": 320,
+    "columns": [
+      "experiment",
+      "feature_family",
+      "fold",
+      "feature_block",
+      "repeat",
+      "delta_MAE"
+    ],
+    "purpose": "Identifier-level demographic-block and frame-rate permutation diagnostics."
+  },
+  "ridge_permutation_importance.csv": {
+    "rows": 960,
+    "columns": [
+      "experiment",
+      "feature_family",
+      "fold",
+      "feature",
+      "repeat",
+      "delta_MAE"
+    ],
+    "purpose": "Trial-row permutation diagnostics, by feature, held-out fold and independent repeat; Figure 7."
+  },
+  "ridge_split_sensitivity.csv": {
+    "rows": 20,
+    "columns": [
+      "experiment",
+      "feature",
+      "split_seed",
+      "MAE",
+      "RMSE",
+      "R2"
+    ],
+    "purpose": "Ridge refitted under five alternative identifier-grouped fold assignments."
+  },
+  "sensitivity_analyses.csv": {
+    "rows": 12,
+    "columns": [
+      "experiment",
+      "feature",
+      "analysis",
+      "MAE",
+      "RMSE",
+      "R2"
+    ],
+    "purpose": "Exactly-four-response, first-trial-baseline and schedule-exclusion sensitivities."
+  },
+  "source_verification.csv": {
+    "rows": 4,
+    "columns": [
+      "file",
+      "sha256",
+      "status"
+    ],
+    "purpose": "Exact SHA-256 fingerprints of the four required source workbooks."
+  }
+}

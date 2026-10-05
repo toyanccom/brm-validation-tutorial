@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the version-specific repository snapshot when using this tutorial."
+title: "Matching validation units and prediction targets in repeated behavioral records"
+type: software
+authors:
+  - family-names: "Yazgan"
+    given-names: "Mehmet Toyanç"
+    orcid: "https://orcid.org/0000-0003-3846-4399"
+  - family-names: "Yağımlı"
+    given-names: "Mustafa"
+  - family-names: "Ozubko"
+    given-names: "Jason"
+version: 1.0.0
+date-released: 2026-10-05
+repository-code: "https://github.com/toyanccom/brm-validation-tutorial"
+abstract: "Runnable simulated teaching example with an archived empirical MOT validation case study. No new human observations or external validation."
