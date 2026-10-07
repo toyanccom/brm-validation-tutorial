@@ -10,7 +10,7 @@ authors:
     given-names: "Mustafa"
   - family-names: "Ozubko"
     given-names: "Jason"
-version: 1.0.0
-date-released: 2026-10-05
+version: 1.0.1
+date-released: 2026-10-07
 repository-code: "https://github.com/toyanccom/brm-validation-tutorial"
 abstract: "Runnable simulated teaching example with an archived empirical MOT validation case study. No new human observations or external validation."

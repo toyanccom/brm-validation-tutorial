@@ -1,0 +1,77 @@
+{
+  "base_git_files_verified": 41,
+  "data_origin": "SIMULATED",
+  "tutorial_tests_passed": 5,
+  "csv_matches": {
+    "synthetic_fold_audit.csv": {
+      "rows": 20,
+      "columns": [
+        "model",
+        "scheme",
+        "fold",
+        "training_rows",
+        "test_rows",
+        "training_groups",
+        "test_groups",
+        "test_group_overlap"
+      ],
+      "sha256": "30b4b3ddfae3a5fe2bf23cd50469f4004ce3a2fe6eacfc9b1e0f940dc9b4f341"
+    },
+    "synthetic_group_means.csv": {
+      "rows": 320,
+      "columns": [
+        "synthetic_group",
+        "observed",
+        "predicted",
+        "model",
+        "scheme"
+      ],
+      "sha256": "75af6608b900c8f7a111b3f30d064efd22975e4be94b6b41b9731eee3e5e6097"
+    },
+    "synthetic_metrics.csv": {
+      "rows": 8,
+      "columns": [
+        "data_origin",
+        "model",
+        "scheme",
+        "target",
+        "n_scored",
+        "MAE",
+        "RMSE",
+        "R2",
+        "R2_CI_low",
+        "R2_CI_high",
+        "mean_test_group_overlap"
+      ],
+      "sha256": "18dec0c6a213970db81ae7db070455d09ab2959801f2651b16037591825dbefc"
+    },
+    "synthetic_predictions.csv": {
+      "rows": 9600,
+      "columns": [
+        "synthetic_group",
+        "observed",
+        "predicted",
+        "fold",
+        "model",
+        "scheme"
+      ],
+      "sha256": "848a23ef1a744736b235af4adbc863a6f87c640de23a2ebf26988d7cae2ca907"
+    },
+    "synthetic_records.csv": {
+      "rows": 2400,
+      "columns": [
+        "synthetic_group",
+        "trial",
+        "condition",
+        "unit_marker",
+        "outcome"
+      ],
+      "sha256": "193d4d9ee3923a149f76bb477ef2c005b97d41f4b9a2c01a944cbc814f93beac"
+    }
+  },
+  "synthetic_observations": 2400,
+  "synthetic_groups": 80,
+  "missing_unit_markers": 60,
+  "checked_on": "2026-10-07",
+  "public_version": "1.0.1"
+}

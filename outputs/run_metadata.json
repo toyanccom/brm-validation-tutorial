@@ -1,0 +1,37 @@
+{
+  "data_origin": "Entirely simulated; no human observations used",
+  "seed": 20261005,
+  "groups": 80,
+  "trials_per_group": 30,
+  "generator": {
+    "intercept_mean": 0,
+    "intercept_sd": 0.9,
+    "marker_distribution": "Uniform(-2,2), independent of intercept",
+    "condition_effects": [
+      -1.0,
+      -0.6,
+      -0.19999999999999996,
+      0.20000000000000018,
+      0.6000000000000001,
+      1.0
+    ],
+    "logit_intercept": 0.5,
+    "outcome": "Binomial(4, logistic(logit))",
+    "marker_missing_fraction": 0.025
+  },
+  "selection": "One fixed teaching specification; no tuning or search over seeds",
+  "uncertainty": "400 whole-group percentile resamples, predictions fixed; no refits",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.8.0",
+  "matplotlib": "3.10.8",
+  "transfer": "Neither prospective nor external empirical validation",
+  "output_sha256": {
+    "synthetic_fold_audit.csv": "30b4b3ddfae3a5fe2bf23cd50469f4004ce3a2fe6eacfc9b1e0f940dc9b4f341",
+    "synthetic_group_means.csv": "75af6608b900c8f7a111b3f30d064efd22975e4be94b6b41b9731eee3e5e6097",
+    "synthetic_metrics.csv": "18dec0c6a213970db81ae7db070455d09ab2959801f2651b16037591825dbefc",
+    "synthetic_predictions.csv": "848a23ef1a744736b235af4adbc863a6f87c640de23a2ebf26988d7cae2ca907",
+    "synthetic_records.csv": "193d4d9ee3923a149f76bb477ef2c005b97d41f4b9a2c01a944cbc814f93beac"
+  }
+}

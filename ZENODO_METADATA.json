@@ -1,0 +1,35 @@
+{
+  "title": "Matching validation units and prediction targets in repeated behavioral records",
+  "upload_type": "software",
+  "version": "1.0.1",
+  "creators": [
+    {
+      "name": "Yazgan, Mehmet Toyanç",
+      "orcid": "0000-0003-3846-4399"
+    },
+    {
+      "name": "Yağımlı, Mustafa"
+    },
+    {
+      "name": "Ozubko, Jason"
+    }
+  ],
+  "description": "Documented teaching code with a complete, independently generated synthetic dataset of 80 artificial groups and 2,400 observations, held-out predictions, validation audit, paired group means, conditional intervals, and figures. Includes the previously public aggregate MOT case-study archive. Human participant workbooks and real individual prediction vectors are excluded because unrestricted redistribution authorization has not been established. Synthetic data illustrate the validation and scoring workflow and cannot reproduce empirical MOT estimates. Version 1.0.1 changes public data access; generator settings and empirical numerical estimates are unchanged.",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "synthetic data",
+    "behavioral methods",
+    "grouped validation",
+    "prediction target",
+    "multiple object tracking",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/toyanccom/brm-validation-tutorial",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
